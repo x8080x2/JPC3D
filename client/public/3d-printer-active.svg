@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 3D Printer Base -->
+  <rect x="50" y="180" width="300" height="80" rx="8" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Printer Frame -->
+  <rect x="70" y="160" width="260" height="20" rx="4" fill="#4A5568"/>
+  <rect x="70" y="100" width="20" height="80" rx="4" fill="#4A5568"/>
+  <rect x="310" y="100" width="20" height="80" rx="4" fill="#4A5568"/>
+  <rect x="70" y="100" width="260" height="20" rx="4" fill="#4A5568"/>
+  
+  <!-- Print Bed -->
+  <rect x="100" y="150" width="200" height="15" rx="2" fill="#E2E8F0" stroke="#CBD5E0" stroke-width="1"/>
+  
+  <!-- Print Head Assembly -->
+  <rect x="180" y="120" width="40" height="30" rx="4" fill="#1A202C"/>
+  <rect x="185" y="145" width="30" height="8" rx="2" fill="#E53E3E"/>
+  
+  <!-- Print Head Movement (animated) -->
+  <animateTransform
+    attributeName="transform"
+    attributeType="XML"
+    type="translate"
+    values="0 0; 80 0; -80 0; 0 0"
+    dur="4s"
+    repeatCount="indefinite"/>
+  
+  <!-- Z-Axis Rod -->
+  <rect x="95" y="100" width="8" height="60" rx="4" fill="#718096"/>
+  <rect x="305" y="100" width="8" height="60" rx="4" fill="#718096"/>
+  
+  <!-- Extruder Nozzle -->
+  <circle cx="200" cy="155" r="3" fill="#F56565"/>
+  
+  <!-- Printing Material (active extrusion) -->
+  <path d="M200 158 L200 150 L205 150 L210 150 L215 148 L220 146" 
+        stroke="#3182CE" stroke-width="2" fill="none" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Printed Object (growing) -->
+  <rect x="190" y="145" width="20" height="5" rx="1" fill="#3182CE" opacity="0.8"/>
+  <rect x="185" y="140" width="30" height="5" rx="1" fill="#3182CE" opacity="0.6"/>
+  <rect x="180" y="135" width="40" height="5" rx="1" fill="#3182CE" opacity="0.4"/>
+  
+  <!-- Print Progress Animation -->
+  <rect x="190" y="142" width="20" height="3" rx="1" fill="#1A365D">
+    <animate attributeName="height" values="0;8;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="145;137;145" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Control Panel -->
+  <rect x="340" y="200" width="40" height="30" rx="4" fill="#1A202C" stroke="#4A5568" stroke-width="1"/>
+  <rect x="345" y="205" width="30" height="20" rx="2" fill="#2D3748"/>
+  
+  <!-- LED Indicators -->
+  <circle cx="350" cy="235" r="2" fill="#48BB78">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="360" cy="235" r="2" fill="#3182CE">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="370" cy="235" r="2" fill="#F56565">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Filament Spool -->
+  <circle cx="80" cy="80" r="25" fill="#4A5568" stroke="#2D3748" stroke-width="2"/>
+  <circle cx="80" cy="80" r="15" fill="#3182CE"/>
+  <circle cx="80" cy="80" r="8" fill="#2D3748"/>
+  
+  <!-- Filament Feed -->
+  <path d="M105 80 Q140 70 180 125" stroke="#3182CE" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Heat Waves (from nozzle) -->
+  <path d="M195 158 Q198 160 195 162 Q192 164 195 166" 
+        stroke="#F56565" stroke-width="1" fill="none" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M200 158 Q203 160 200 162 Q197 164 200 166" 
+        stroke="#F56565" stroke-width="1" fill="none" opacity="0.6">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M205 158 Q208 160 205 162 Q202 164 205 166" 
+        stroke="#F56565" stroke-width="1" fill="none" opacity="0.6">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Background Grid (subtle) -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E2E8F0" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+</svg>
