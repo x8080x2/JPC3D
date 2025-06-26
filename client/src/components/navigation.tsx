@@ -30,7 +30,7 @@ export default function Navigation() {
                 3D Printing Service
               </span>
               <span className="text-sm font-bold text-primary xs:hidden">
-                3D Print
+                3D Printing Service
               </span>
             </div>
           </Link>
