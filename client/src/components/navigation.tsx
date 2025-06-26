@@ -22,9 +22,9 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
             <div className="flex items-center">
               <img 
-                src="/logo.svg" 
+                src="/Screenshot 2025-06-26 at 11.12.00 AM_1750929457016.jpeg" 
                 alt="3D Print Bureau Logo" 
-                className="h-10 w-10 mr-3"
+                className="h-12 w-auto mr-3 object-contain"
               />
               <span className="text-2xl font-bold text-primary">
                 3D Print Bureau

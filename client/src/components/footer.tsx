@@ -9,9 +9,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/logo.svg" 
+                src="/Screenshot 2025-06-26 at 11.12.00 AM_1750929457016.jpeg" 
                 alt="3D Print Bureau Logo" 
-                className="h-8 w-8 mr-3"
+                className="h-10 w-auto mr-3 object-contain"
               />
               <span className="text-2xl font-bold text-primary">
                 3D Print Bureau

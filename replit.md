@@ -94,6 +94,7 @@ This is a full-stack web application for a 3D printing services business built w
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Logo integration: User provided custom logo image integrated throughout the website.
 
 ## Changelog
 
