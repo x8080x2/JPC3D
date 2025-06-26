@@ -121,7 +121,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in-up">
-              <h2 className="text-4xl font-bold text-secondary mb-6">About 3D Print Bureau</h2>
+              <h2 className="text-4xl font-bold text-secondary mb-6">About 3D Printing Service</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 With over a decade of experience in additive manufacturing, we've established ourselves as the premier 3D printing service provider for businesses across industries. Our state-of-the-art facility houses the latest in 3D printing technology, from precision SLA printers to industrial-grade FDM systems.
               </p>

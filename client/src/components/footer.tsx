@@ -10,11 +10,11 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <img 
                 src="/logo.jpg" 
-                alt="3D Print Bureau Logo" 
+                alt="3D Printing Service Logo" 
                 className="h-10 w-auto mr-3 object-contain"
               />
               <span className="text-2xl font-bold text-primary">
-                3D Print Bureau
+                3D Printing Service
               </span>
             </div>
             <p className="text-gray-400 mb-4">
@@ -81,7 +81,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 3D Print Bureau. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2024 3D Printing Service. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

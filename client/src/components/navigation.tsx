@@ -23,11 +23,11 @@ export default function Navigation() {
             <div className="flex items-center">
               <img 
                 src="https://iili.io/FA2waMG.md.jpg" 
-                alt="3D Print Bureau Logo" 
+                alt="3D Printing Service Logo" 
                 className="h-12 w-auto mr-3 object-contain"
               />
               <span className="text-2xl font-bold text-primary">
-                3D Print Bureau
+                3D Printing Service
               </span>
             </div>
           </Link>
