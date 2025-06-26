@@ -44,8 +44,8 @@ export default function Hero() {
 
           <div className="hidden md:block lg:block animate-float mt-8 lg:mt-0">
             <img 
-              src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="3D printer in action printing an object" 
+              src="https://images.unsplash.com/photo-1606999615503-96ce5ad09b35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+              alt="Modern 3D printer creating detailed prototypes" 
               className="rounded-xl shadow-2xl w-full h-auto max-w-md lg:max-w-none mx-auto"
             />
           </div>
