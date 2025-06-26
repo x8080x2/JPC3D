@@ -42,23 +42,6 @@ export default function Hero() {
           </div>
 
           <div className="hidden md:block lg:block animate-float mt-8 lg:mt-0 relative">
-            <div className="relative z-10 bg-white/10 backdrop-blur-sm rounded-2xl shadow-2xl p-6 transform hover:scale-105 transition-all duration-700">
-              <div className="aspect-[4/3] rounded-xl flex items-center justify-center overflow-hidden">
-                <img 
-                  src="https://www.youtube.com/watch?v=qoBU0r7pT84" 
-                  alt="3D Printer actively printing with animated components" 
-                  className="w-full h-full object-contain"
-                  style={{
-                    filter: 'drop-shadow(0 10px 30px rgba(59, 130, 246, 0.4))'
-                  }}
-                />
-              </div>
-              <div className="mt-4 text-center">
-                <h3 className="text-xl font-bold text-white mb-2 drop-shadow-lg">Live 3D Printing</h3>
-                <p className="text-blue-100 drop-shadow-md">Real-time manufacturing process</p>
-              </div>
-            </div>
-            
             {/* Floating particles effect */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
               <div className="absolute top-10 left-10 w-2 h-2 bg-blue-400 rounded-full opacity-60 animate-bounce" style={{animationDelay: '0s'}}></div>
