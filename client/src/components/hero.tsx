@@ -34,8 +34,7 @@ export default function Hero() {
               <Link href="/contact">
                 <Button 
                   size="lg" 
-                  variant="outline" 
-                  className="border-2 border-white text-white hover:bg-white hover:text-secondary text-lg font-semibold px-8 py-4 h-auto"
+                  className="bg-white text-secondary hover:bg-gray-100 hover:text-secondary text-lg font-semibold px-8 py-4 h-auto border-2 border-white"
                 >
                   Get Quote
                 </Button>
