@@ -20,9 +20,15 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-primary flex items-center">
-              <Box className="mr-2 h-8 w-8" />
-              3D Print Bureau
+            <div className="flex items-center">
+              <img 
+                src="/logo.svg" 
+                alt="3D Print Bureau Logo" 
+                className="h-10 w-10 mr-3"
+              />
+              <span className="text-2xl font-bold text-primary">
+                3D Print Bureau
+              </span>
             </div>
           </Link>
           

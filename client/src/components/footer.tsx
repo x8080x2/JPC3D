@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Box, Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,9 +7,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="text-2xl font-bold text-primary mb-4 flex items-center">
-              <Box className="mr-2 h-8 w-8" />
-              3D Print Bureau
+            <div className="flex items-center mb-4">
+              <img 
+                src="/logo.svg" 
+                alt="3D Print Bureau Logo" 
+                className="h-8 w-8 mr-3"
+              />
+              <span className="text-2xl font-bold text-primary">
+                3D Print Bureau
+              </span>
             </div>
             <p className="text-gray-400 mb-4">
               Leading the future of additive manufacturing with precision, innovation, and excellence.

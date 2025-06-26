@@ -98,4 +98,6 @@ Preferred communication style: Simple, everyday language.
 ## Changelog
 
 Changelog:
-- June 26, 2025. Initial setup
+- June 26, 2025: Initial setup
+- June 26, 2025: Integrated custom logo into navigation and footer components
+- June 26, 2025: Created advanced 3D printing portfolio website with modern layout and interactive features
