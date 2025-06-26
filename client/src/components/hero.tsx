@@ -17,7 +17,7 @@ export default function Hero() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-4 sm:mb-6 leading-tight text-left font-extrabold">
               Advanced <span className="text-accent">3D Printing</span> Solutions
             </h1>
-            <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-gray-200 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-semibold text-[#000]">
               Transform your ideas into reality with our cutting-edge 3D printing technology. 
               From rapid prototyping to full production runs.
             </p>
