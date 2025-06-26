@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <div className="pt-16">
       <Hero />
-      
+
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,7 +53,7 @@ export default function Home() {
               Comprehensive 3D printing solutions for every industry and application
             </p>
           </div>
-          
+
           {servicesLoading ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[...Array(6)].map((_, i) => (
@@ -67,7 +67,7 @@ export default function Home() {
               ))}
             </div>
           )}
-          
+
           <div className="text-center mt-12">
             <Link href="/services">
               <Button size="lg" variant="outline">
@@ -117,67 +117,41 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="animate-fade-in-up">
-              <h2 className="text-4xl font-bold text-secondary mb-6">About 3D Printing Service</h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                With over a decade of experience in additive manufacturing, we've established ourselves as the premier 3D printing service provider for businesses across industries. Our state-of-the-art facility houses the latest in 3D printing technology, from precision SLA printers to industrial-grade FDM systems.
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary">
+                Precision Meets Innovation
+              </h2>
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+                With over {companyStats.yearsExperience} years of experience in additive manufacturing, 
+                we've helped countless businesses bring their ideas to life. Our state-of-the-art 
+                facility houses {companyStats.printers} industrial-grade 3D printers, capable of 
+                working with a wide range of materials and technologies.
               </p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                We pride ourselves on delivering exceptional quality, rapid turnaround times, and innovative solutions that help our clients bring their most ambitious projects to life. From concept to completion, we're your partners in transformation.
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+                From concept to completion, we provide comprehensive 3D printing solutions that 
+                meet the highest standards of quality and precision. Our team of experts works 
+                closely with each client to ensure optimal results for every project.
               </p>
-              
-              <div className="grid grid-cols-2 gap-6 mb-8">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">
-                    {companyStats.projectsCompleted}
-                  </div>
-                  <div className="text-gray-600">Projects Completed</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">
-                    {companyStats.yearsExperience}
-                  </div>
-                  <div className="text-gray-600">Years Experience</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">
-                    {companyStats.happyClients}
-                  </div>
-                  <div className="text-gray-600">Happy Clients</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">
-                    {companyStats.printers}
-                  </div>
-                  <div className="text-gray-600">3D Printers</div>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-4">
-                <Badge variant="secondary" className="px-4 py-2">
-                  ISO 9001 Certified
-                </Badge>
-                <Badge variant="secondary" className="px-4 py-2">
-                  FDA Compliant
-                </Badge>
-                <Badge variant="secondary" className="px-4 py-2">
-                  AS9100 Aerospace
-                </Badge>
-              </div>
+              <Link href="/about">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
+                  Learn More About Us
+                </Button>
+              </Link>
             </div>
-            
-            <div className="relative">
+            <div className="relative mt-8 lg:mt-0">
               <img 
                 src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
                 alt="State-of-the-art 3D printing facility" 
-                className="rounded-xl shadow-2xl w-full h-auto"
+                className="rounded-xl shadow-xl w-full h-auto"
               />
-              <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
-                <div className="text-2xl font-bold text-primary mb-1">24/7</div>
-                <div className="text-sm text-gray-600">Production</div>
+              <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white p-4 sm:p-6 rounded-lg shadow-lg">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-1 sm:mb-2">
+                  {companyStats.happyClients}+
+                </div>
+                <div className="text-sm sm:text-base text-gray-600">Happy Clients</div>
               </div>
             </div>
           </div>
@@ -207,6 +181,37 @@ export default function Home() {
           )}
         </div>
       </section>
+
+      {/* Stats */}
+          <div className="mt-12 sm:mt-16">
+            <div className="text-center mb-8 sm:mb-12">
+              <h3 className="text-2xl sm:text-3xl font-bold text-secondary mb-3 sm:mb-4">Our Track Record</h3>
+              <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
+                Numbers that speak to our commitment to excellence and client satisfaction.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 text-center">
+              <div className="bg-gray-50 p-6 sm:p-8 rounded-xl">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">
+                  {companyStats.yearsExperience}
+                </div>
+                <div className="text-sm sm:text-base text-gray-600">Years Experience</div>
+              </div>
+              <div className="bg-gray-50 p-6 sm:p-8 rounded-xl">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">
+                  {companyStats.happyClients}
+                </div>
+                <div className="text-sm sm:text-base text-gray-600">Happy Clients</div>
+              </div>
+              <div className="bg-gray-50 p-6 sm:p-8 rounded-xl">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">
+                  {companyStats.printers}
+                </div>
+                <div className="text-sm sm:text-base text-gray-600">3D Printers</div>
+              </div>
+            </div>
+          </div>
 
       <ProjectModal
         project={selectedProject}

@@ -24,7 +24,7 @@ type ContactFormData = z.infer<typeof contactFormSchema>;
 export default function Contact() {
   const { toast } = useToast();
   const queryClient = useQueryClient();
-  
+
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -67,13 +67,13 @@ export default function Contact() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-secondary to-gray-700 text-white py-20">
+      <section className="bg-gradient-to-r from-secondary to-gray-700 text-white py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Get Your Quote Today</h1>
-            <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-              Ready to bring your project to life? Contact us for a free consultation and detailed quote. 
-              Our team of experts is here to guide you through every step of the process.
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Get In Touch</h1>
+            <p className="text-base sm:text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
+              Ready to bring your ideas to life? Contact us today to discuss your project 
+              and get a personalized quote for your 3D printing needs.
             </p>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Contact() {
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Have a project in mind? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
               </p>
-              
+
               <div className="space-y-6">
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
@@ -100,7 +100,7 @@ export default function Contact() {
                     <div className="text-gray-600">+44 20 7946 0958</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
                     <Mail className="text-white h-6 w-6" />
@@ -110,7 +110,7 @@ export default function Contact() {
                     <div className="text-gray-600">info@3dprintbureau.co.uk</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
                     <MapPin className="text-white h-6 w-6" />
@@ -177,7 +177,7 @@ export default function Contact() {
                         )}
                       />
                     </div>
-                    
+
                     <FormField
                       control={form.control}
                       name="email"
@@ -191,7 +191,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    
+
                     <FormField
                       control={form.control}
                       name="phone"
@@ -205,7 +205,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    
+
                     <FormField
                       control={form.control}
                       name="company"
@@ -219,7 +219,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    
+
                     <FormField
                       control={form.control}
                       name="service"
@@ -245,7 +245,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    
+
                     <FormField
                       control={form.control}
                       name="message"
@@ -263,7 +263,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    
+
                     <FormField
                       control={form.control}
                       name="newsletter"
@@ -283,7 +283,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    
+
                     <Button 
                       type="submit" 
                       className="w-full bg-primary hover:bg-primary/90" 

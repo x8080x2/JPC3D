@@ -12,13 +12,13 @@ export default function Services() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-blue-600 text-white py-20">
+      <section className="bg-gradient-to-r from-secondary to-gray-700 text-white py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Our Services</h1>
-            <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-              Comprehensive 3D printing solutions tailored to your specific needs. 
-              From rapid prototyping to full-scale production, we deliver excellence at every step.
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Our Services</h1>
+            <p className="text-base sm:text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
+              From rapid prototyping to full-scale production, we provide comprehensive 
+              3D printing solutions tailored to your specific needs and requirements.
             </p>
           </div>
         </div>

@@ -18,16 +18,19 @@ export default function Navigation() {
   return (
     <nav className="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 sm:h-16">
           <Link href="/" className="flex items-center">
             <div className="flex items-center">
               <img 
                 src="https://iili.io/FA2waMG.md.jpg" 
                 alt="3D Printing Service Logo" 
-                className="h-12 w-auto mr-3 object-contain"
+                className="h-8 sm:h-10 lg:h-12 w-auto mr-2 sm:mr-3 object-contain"
               />
-              <span className="text-2xl font-bold text-primary">
+              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-primary hidden xs:block">
                 3D Printing Service
+              </span>
+              <span className="text-sm font-bold text-primary xs:hidden">
+                3D Print
               </span>
             </div>
           </Link>
