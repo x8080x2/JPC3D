@@ -22,7 +22,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
             <div className="flex items-center">
               <img 
-                src="/logo.jpg" 
+                src="https://iili.io/FA2waMG.md.jpg" 
                 alt="3D Print Bureau Logo" 
                 className="h-12 w-auto mr-3 object-contain"
               />
@@ -31,7 +31,7 @@ export default function Navigation() {
               </span>
             </div>
           </Link>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
