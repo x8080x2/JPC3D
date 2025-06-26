@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/Screenshot 2025-06-26 at 11.12.00 AM_1750929457016.jpeg" 
+                src="/logo.jpg" 
                 alt="3D Print Bureau Logo" 
                 className="h-10 w-auto mr-3 object-contain"
               />
