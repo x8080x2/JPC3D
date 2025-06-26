@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, LinkedIn } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -38,7 +38,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
@@ -49,7 +49,7 @@ export default function Footer() {
               <li><Link href="/services" className="hover:text-white transition-colors duration-300">Material Testing</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Industries</h3>
             <ul className="space-y-2 text-gray-400">
@@ -60,7 +60,7 @@ export default function Footer() {
               <li><Link href="/portfolio" className="hover:text-white transition-colors duration-300">Architecture</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-2 text-gray-400">
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; 2024 3D Print Bureau. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
