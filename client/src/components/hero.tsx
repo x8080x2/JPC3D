@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="relative z-10 bg-white/10 backdrop-blur-sm rounded-2xl shadow-2xl p-6 transform hover:scale-105 transition-all duration-700">
               <div className="aspect-[4/3] rounded-xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/3d-printer-active.svg" 
+                  src="https://www.youtube.com/watch?v=qoBU0r7pT84" 
                   alt="3D Printer actively printing with animated components" 
                   className="w-full h-full object-contain"
                   style={{
