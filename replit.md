@@ -95,6 +95,7 @@ This is a full-stack web application for a 3D printing services business built w
 
 Preferred communication style: Simple, everyday language.
 Logo integration: User provided custom logo image integrated throughout the website.
+Business customization: Updated all content to reflect JPC 3D Services actual business offerings and contact information.
 
 ## Changelog
 

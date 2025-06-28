@@ -11,10 +11,10 @@ export default function About() {
   });
 
   const companyStats = {
-    projectsCompleted: "2,500+",
-    yearsExperience: "12",
-    happyClients: "500+",
-    printers: "25"
+    projectsCompleted: "Fast Turnaround",
+    yearsExperience: "Personalized Service",
+    happyClients: "Quality Checks",
+    printers: "Affordable Pricing"
   };
 
   return (
@@ -23,10 +23,10 @@ export default function About() {
       <section className="bg-gradient-to-r from-secondary to-gray-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">About 3D Printing Service</h1>
+            <h1 className="text-5xl font-bold mb-6">About JPC 3D Services</h1>
             <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-              Leading the future of additive manufacturing with over a decade of experience, 
-              cutting-edge technology, and unwavering commitment to excellence.
+              Passionate about creativity and craftsmanship. We offer high-quality 3D printing and laser engraving 
+              services for individuals, businesses, and creators with personalized service and support.
             </p>
           </div>
         </div>
@@ -37,15 +37,15 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-secondary mb-6">Our Story</h2>
+              <h2 className="text-4xl font-bold text-secondary mb-6">Why Choose JPC 3D Services?</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2012, 3D Print Bureau began as a small startup with a big vision: to democratize advanced manufacturing through 3D printing technology. What started as a two-person operation in a garage has grown into one of the UK's most trusted 3D printing service providers.
+                At JPC 3D Services, we're passionate about creativity and craftsmanship. We offer high-quality 3D printing for individuals, businesses, and creators using precision FDM printers and premium materials like PLA and PETG.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our journey has been marked by continuous innovation, strategic investments in cutting-edge technology, and an unwavering commitment to quality. Today, we serve clients across multiple industries, from aerospace giants to innovative startups, helping them bring their most ambitious projects to life.
+                Whether you need prototypes, replacement parts, or custom-designed products, we work closely with you to ensure your design meets your specifications. We can print in a variety of colors and finishes, bringing your ideas to life with precision and care.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                At 3D Print Bureau, we believe that every idea deserves the opportunity to become reality. That's why we've built our reputation on delivering exceptional quality, rapid turnaround times, and innovative solutions that exceed expectations.
+                Beyond 3D printing, we also offer professional laser engraving on wood, acrylic, leather, glass, and coated metals. From personalized gifts to business signage, our precision laser can add logos, names, designs, or text to your items.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">

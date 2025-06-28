@@ -159,46 +159,60 @@ export class MemStorage implements IStorage {
     // Seed services
     const sampleServices: InsertService[] = [
       {
+        title: "Custom 3D Printing",
+        description: "High-quality 3D printing for individuals, businesses, and creators using precision FDM printers and premium materials like PLA and PETG.",
+        icon: "printer",
+        features: ["Premium PLA and PETG materials", "Variety of colors and finishes", "Prototypes and replacement parts", "Custom-designed products"],
+        price: "Contact for quote"
+      },
+      {
         title: "Rapid Prototyping",
-        description: "Fast, accurate prototypes to accelerate your product development cycle. From concept to physical model in 24-48 hours.",
-        icon: "rocket",
-        features: ["SLA & FDM Technologies", "Multiple Material Options", "Quick Turnaround"],
-        price: "Starting from £50"
-      },
-      {
-        title: "Production Runs",
-        description: "Scale your manufacturing with our industrial-grade 3D printing capabilities for end-use parts and components.",
-        icon: "factory",
-        features: ["High-Volume Printing", "Quality Assurance", "Custom Finishing"],
-        price: "Quote on request"
-      },
-      {
-        title: "Design Services",
-        description: "Complete design-to-print solutions with our expert engineering and CAD modeling services.",
-        icon: "drafting-compass",
-        features: ["CAD Modeling", "Design Optimization", "Print Preparation"],
-        price: "£75/hour"
-      },
-      {
-        title: "Post-Processing",
-        description: "Professional finishing services to achieve the perfect surface quality and functionality for your parts.",
-        icon: "tools",
-        features: ["Sanding & Polishing", "Painting & Coating", "Assembly Services"],
-        price: "From £25"
-      },
-      {
-        title: "Material Testing",
-        description: "Comprehensive material analysis and testing to ensure your parts meet specific performance requirements.",
-        icon: "microscope",
-        features: ["Mechanical Testing", "Chemical Analysis", "Quality Certification"],
-        price: "£150/test"
-      },
-      {
-        title: "Express Services",
-        description: "Rush orders and expedited services for time-critical projects with guaranteed delivery times.",
+        description: "Turn concepts into physical models fast for product development, testing, and presentations. Perfect for inventors and businesses.",
         icon: "zap",
-        features: ["24-Hour Turnaround", "Priority Processing", "Express Shipping"],
-        price: "50% premium"
+        features: ["Work from sketches or CAD files", "Fast turnaround times", "Concept validation support", "Help create 3D models"],
+        price: "Contact for quote"
+      },
+      {
+        title: "Design & Modeling Support",
+        description: "3D design services including CAD modeling, file preparation, and design optimization for strength, functionality, and printability.",
+        icon: "drafting-compass",
+        features: ["CAD modeling from ideas", "File preparation for printing", "Design optimization for strength", "Functionality and printability focus"],
+        price: "Contact for quote"
+      },
+      {
+        title: "Small-Batch Manufacturing",
+        description: "Short-run 3D printing ideal for small businesses or events that don't require costly mass production. Perfect for a few dozen parts or products.",
+        icon: "package",
+        features: ["Few dozen parts or products", "Ideal for small businesses", "Event-specific production", "Cost-effective solution"],
+        price: "Contact for quote"
+      },
+      {
+        title: "Custom Laser Engraving",
+        description: "Professional laser engraving on wood, acrylic, leather, glass, and coated metals. From personalized gifts to business signage.",
+        icon: "laser",
+        features: ["Wood, acrylic, leather, glass, metals", "Personalized gifts and business signage", "Logos, names, designs, and text", "Precision laser technology"],
+        price: "Contact for quote"
+      },
+      {
+        title: "Product Personalization",
+        description: "Make your products unique with custom engravings — perfect for branding, promotional items, or one-of-a-kind gifts.",
+        icon: "star",
+        features: ["Small and large batch support", "Perfect for branding", "Promotional items", "One-of-a-kind gifts"],
+        price: "Contact for quote"
+      },
+      {
+        title: "Cutting & Shaping",
+        description: "Laser cutting of thin wood, acrylic, and leather for signs, decorative pieces, or prototype components with clean edges and high accuracy.",
+        icon: "scissors",
+        features: ["Clean edges and high accuracy", "Signs and decorative pieces", "Prototype components", "Wood, acrylic, and leather"],
+        price: "Contact for quote"
+      },
+      {
+        title: "Design Assistance",
+        description: "Convert your logo, artwork, or idea into a vector file suitable for laser processing. We help bring your vision to life.",
+        icon: "help-circle",
+        features: ["Logo conversion", "Artwork preparation", "Vector file creation", "Laser processing optimization"],
+        price: "Contact for quote"
       }
     ];
 
