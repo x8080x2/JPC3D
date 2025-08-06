@@ -5,22 +5,22 @@ export interface IStorage {
   getUser(id: number): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
-  
+
   // Projects
   getProjects(): Promise<Project[]>;
   getProjectsByCategory(category: string): Promise<Project[]>;
   getProject(id: number): Promise<Project | undefined>;
   createProject(project: InsertProject): Promise<Project>;
-  
+
   // Services
   getServices(): Promise<Service[]>;
   getService(id: number): Promise<Service | undefined>;
   createService(service: InsertService): Promise<Service>;
-  
+
   // Testimonials
   getTestimonials(): Promise<Testimonial[]>;
   createTestimonial(testimonial: InsertTestimonial): Promise<Testimonial>;
-  
+
   // Contacts
   getContacts(): Promise<Contact[]>;
   createContact(contact: InsertContact): Promise<Contact>;
@@ -49,7 +49,7 @@ export class MemStorage implements IStorage {
     this.currentServiceId = 1;
     this.currentTestimonialId = 1;
     this.currentContactId = 1;
-    
+
     this.seedData();
   }
 
@@ -81,76 +81,76 @@ export class MemStorage implements IStorage {
         featured: false
       },
       {
-        title: "Surgical Instruments",
-        description: "Biocompatible surgical tools with ergonomic design for enhanced precision.",
+        title: "Headset Mounting System",
+        description: "Precision circular mounting plates for professional headset equipment.",
         category: "medical",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "Medical Grade PEEK",
+        imageUrl: "/4d1b29f3-108a-4c67-9000-129abe22b2b3_1754468619376.JPG",
+        material: "Medical Grade ABS",
         technology: "FDM (Fused Deposition Modeling)",
-        resolution: "0.2mm layer height",
-        timeline: "5-7 business days",
-        challenges: "Met strict biocompatibility and sterilization requirements",
-        featured: true
-      },
-      {
-        title: "Carbon Fiber Parts",
-        description: "Lightweight, high-strength components for performance automotive applications.",
-        category: "automotive",
-        imageUrl: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "Carbon Fiber Reinforced Nylon",
-        technology: "SLS (Selective Laser Sintering)",
-        resolution: "0.15mm layer height",
-        timeline: "10-14 business days",
-        challenges: "Optimized fiber orientation for maximum strength-to-weight ratio",
-        featured: false
-      },
-      {
-        title: "Architectural Scale Model",
-        description: "Detailed scale model for architectural visualization and client presentations.",
-        category: "prototyping",
-        imageUrl: "https://images.unsplash.com/photo-1605647540924-852290f6b0d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "PLA",
-        technology: "FDM (Fused Deposition Modeling)",
-        resolution: "0.2mm layer height",
+        resolution: "0.1mm layer height",
         timeline: "4-6 business days",
-        challenges: "Achieved intricate architectural details at 1:100 scale",
-        featured: false
+        challenges: "Met stringent medical industry standards and biocompatibility requirements",
+        featured: true
       },
       {
-        title: "Multi-Material Assembly",
-        description: "Complex product combining rigid and flexible materials in single print.",
+        title: "Automotive Porsche Models",
+        description: "Detailed scale model Porsche cars for collectors and presentations.",
+        category: "automotive",
+        imageUrl: "/6c62b2c4-affd-4ce3-967b-be9d5219befd_1754468619376.JPG",
+        material: "High-Detail Resin",
+        technology: "SLA (Stereolithography)",
+        resolution: "0.05mm layer height",
+        timeline: "7-10 business days",
+        challenges: "Achieved automotive-grade detail and surface finish requirements",
+        featured: true
+      },
+      {
+        title: "Artistic Vase Design",
+        description: "Flowing organic vase design with complex curved geometries.",
         category: "prototyping",
-        imageUrl: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "TPU + PLA",
-        technology: "Multi-material FDM",
-        resolution: "0.2mm layer height",
-        timeline: "6-8 business days",
-        challenges: "Seamless integration of different material properties",
-        featured: true
-      },
-      {
-        title: "Custom Tooling",
-        description: "Specialized jigs and fixtures for manufacturing process optimization.",
-        category: "industrial",
-        imageUrl: "https://images.unsplash.com/photo-1636633762833-5d1658f1e29b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "Glass-filled Nylon",
-        technology: "SLS (Selective Laser Sintering)",
-        resolution: "0.1mm layer height",
-        timeline: "5-7 business days",
-        challenges: "High precision requirements for manufacturing tolerances",
+        imageUrl: "/8bb482d7-d2d2-4a42-a7df-6c1c7c9a3aa4_1754468619376.JPG",
+        material: "PLA Plastic",
+        technology: "FDM (Fused Deposition Modeling)",
+        resolution: "0.15mm layer height",
+        timeline: "3-5 business days",
+        challenges: "Captured intricate organic curves impossible with traditional manufacturing",
         featured: false
       },
       {
-        title: "Custom Prosthetic",
-        description: "Patient-specific prosthetic device with optimal fit and functionality.",
-        category: "medical",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "TPU",
-        technology: "SLS (Selective Laser Sintering)",
-        resolution: "0.1mm layer height",
-        timeline: "8-12 business days",
-        challenges: "Custom fitting based on 3D body scanning data",
-        featured: true
+        title: "JPC Logo Sand Print",
+        description: "Logo impression in sand demonstrating precision detail capabilities.",
+        category: "prototyping",
+        imageUrl: "/9baa1fc5-220a-432f-b54f-647fca50f1e1_1754468619376.JPG",
+        material: "3D Printed Sand Mold",
+        technology: "Binder Jetting",
+        resolution: "0.2mm layer height",
+        timeline: "2-3 business days",
+        challenges: "Achieved fine detail reproduction in challenging sand medium",
+        featured: false
+      },
+      {
+        title: "CAD Design Mockup",
+        description: "3D CAD model visualization for client approval and design iteration.",
+        category: "industrial",
+        imageUrl: "/adda121e-7bdb-4eb0-bd31-3634a5e2bff2_1754468619376.JPG",
+        material: "Digital Prototype",
+        technology: "CAD Modeling",
+        resolution: "Vector Based",
+        timeline: "1-2 business days",
+        challenges: "Precise technical modeling for manufacturing preparation",
+        featured: false
+      },
+      {
+        title: "3D Printer Setup",
+        description: "Professional 3D printing equipment setup and calibration.",
+        category: "industrial",
+        imageUrl: "/e86ad48c-8ea0-44ea-97b3-768295d88184_1754468619376.JPG",
+        material: "Various Materials",
+        technology: "FDM (Fused Deposition Modeling)",
+        resolution: "0.1-0.3mm layer height",
+        timeline: "Setup Service",
+        challenges: "Optimized printer settings for consistent high-quality output",
+        featured: false
       }
     ];
 
