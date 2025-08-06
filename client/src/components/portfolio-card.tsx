@@ -11,14 +11,12 @@ interface PortfolioCardProps {
 export default function PortfolioCard({ project, onClick }: PortfolioCardProps) {
   const getCategoryColor = (category: string) => {
     switch (category) {
-      case "industrial":
-        return "bg-primary/10 text-primary";
-      case "prototyping":
-        return "bg-accent/10 text-accent";
-      case "medical":
+      case "light_signs":
+        return "bg-yellow-100 text-yellow-800";
+      case "laser_designs":
+        return "bg-blue-100 text-blue-800";
+      case "vase_designs":
         return "bg-green-100 text-green-800";
-      case "automotive":
-        return "bg-red-100 text-red-800";
       default:
         return "bg-purple-100 text-purple-800";
     }
@@ -26,14 +24,12 @@ export default function PortfolioCard({ project, onClick }: PortfolioCardProps) 
 
   const getCategoryLabel = (category: string) => {
     switch (category) {
-      case "industrial":
-        return "Industrial Parts";
-      case "prototyping":
-        return "Rapid Prototyping";
-      case "medical":
-        return "Medical Device";
-      case "automotive":
-        return "Automotive";
+      case "light_signs":
+        return "Light Signs";
+      case "laser_designs":
+        return "Laser Designs";
+      case "vase_designs":
+        return "Vase Designs";
       default:
         return category;
     }

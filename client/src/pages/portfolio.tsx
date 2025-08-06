@@ -16,10 +16,9 @@ export default function Portfolio() {
 
   const filterButtons = [
     { id: "all", label: "All Projects" },
-    { id: "prototyping", label: "Prototyping" },
-    { id: "industrial", label: "Industrial" },
-    { id: "medical", label: "Medical" },
-    { id: "automotive", label: "Automotive" },
+    { id: "light_signs", label: "Light Signs" },
+    { id: "laser_designs", label: "Laser Designs" },
+    { id: "vase_designs", label: "Vase Designs" },
   ];
 
   const filteredProjects = projects?.filter(project => 
