@@ -167,7 +167,7 @@ export class MemStorage implements IStorage {
       {
         title: "Vintage-Style Table Lamp",
         description: "Classic table lamp design with laser-cut lampshade featuring decorative patterns.",
-        category: "light_signs",
+        category: "laser_designs",
         imageUrl: "/e86ad48c-8ea0-44ea-97b3-768295d88184_1754468619376.JPG",
         material: "Wood Veneer Lampshade",
         technology: "Precision Laser Cutting",
