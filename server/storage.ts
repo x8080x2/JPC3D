@@ -118,6 +118,24 @@ export class MemStorage implements IStorage {
         timeline: "7-10 business days",
         challenges: "Created intricate pattern while ensuring proper light diffusion and assembly",
         featured: false
+      },
+      {
+        title: "Professional Triathlon Aerodynamic Handlebar System",
+        description: "Complete custom 3D printed aerodynamic handlebar system designed for competitive triathlon racing. Features ergonomic grips, adjustable armrests, and precision-engineered components for optimal aerodynamics and comfort during long-distance events.",
+        category: "triathlon_bikes",
+        imageUrl: "/attached_assets/9a24f1ce-b83a-4709-8bdc-f704ef9130c0_1754472287497.JPG",
+        galleryImages: [
+          "/attached_assets/d4f9ec88-f176-4c2e-8d9d-19d1e68ba6dd_1754472287497.JPG",
+          "/attached_assets/b1726a27-9a31-4e66-a251-806d22815989_1754472287497.JPG",
+          "/attached_assets/ea349b86-4958-4bea-8599-4fc14c17612f_1754472287497.JPG",
+          "/attached_assets/bec029dd-ac01-42df-ae52-60a092e7eb33_1754472287497.JPG"
+        ],
+        material: "Carbon Fiber Reinforced PETG",
+        technology: "Advanced 3D Printing & Carbon Fiber Integration",
+        resolution: "0.15mm precision for aerodynamic surfaces",
+        timeline: "10-14 business days",
+        challenges: "Achieved professional-grade aerodynamics while maintaining structural integrity and comfort for extended racing periods",
+        featured: true
       }
     ];
 
