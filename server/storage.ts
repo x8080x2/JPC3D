@@ -71,7 +71,7 @@ export class MemStorage implements IStorage {
         featured: true
       },
       {
-        title: "Geometric Pattern Vessel - White & Black Collection",
+        title: "Geometric Pattern Lamp - White & Black Collection",
         description: "Complete collection of elegant geometric vases featuring flowing twisted patterns and sculptural designs. Available in both pristine white and sophisticated black finishes, each piece showcases unique geometric forms from twisted spirals to bold angular patterns. These stunning decorative pieces demonstrate the precision and artistic potential of modern 3D printing technology.",
         category: "vase_designs",
         imageUrl: "/attached_assets/c65ec789-b3c8-4cb2-9ecc-e539779e37c1_1754470864061.JPG",
