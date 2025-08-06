@@ -70,15 +70,39 @@ export class MemStorage implements IStorage {
         featured: true
       },
       {
-        title: "Geometric Pattern Vessel",
-        description: "Modern geometric vase featuring flowing lines and contemporary styling with elegant twisted surface patterns.",
+        title: "Geometric Pattern Vessel - White & Black Collection",
+        description: "Elegant geometric vases featuring flowing twisted patterns available in both pristine white and sophisticated black finishes. These stunning decorative pieces showcase the precision of modern 3D printing technology.",
         category: "vase_designs",
-        imageUrl: "/attached_assets/9baa1fc5-220a-432f-b54f-647fca50f1e1_1754468619376.JPG",
-        material: "High-Strength PETG",
-        technology: "Precision 3D Printing",
+        imageUrl: "/attached_assets/c65ec789-b3c8-4cb2-9ecc-e539779e37c1_1754470864061.JPG",
+        material: "Premium PETG (White & Black)",
+        technology: "High-Resolution 3D Printing",
         resolution: "0.15mm layer height",
         timeline: "4-6 business days",
-        challenges: "Achieved smooth flowing geometric patterns while maintaining structural integrity",
+        challenges: "Achieved smooth flowing geometric patterns with perfect color consistency in both white and black variants",
+        featured: true
+      },
+      {
+        title: "Modern Table Lamp with Geometric Shade",
+        description: "Contemporary table lamp featuring intricate geometric lampshade with wooden tripod base. Available in both white and black finishes, creating beautiful ambient lighting through precise 3D printed patterns.",
+        category: "lighting",
+        imageUrl: "/attached_assets/2c0c5fb1-25b0-4ee5-aaaa-d366823dd8b2_1754470864061.JPG",
+        material: "PETG Shade with Wooden Base",
+        technology: "Precision 3D Printing & Wood Crafting",
+        resolution: "0.2mm pattern accuracy",
+        timeline: "6-8 business days",
+        challenges: "Balanced structural integrity with optimal light diffusion through geometric patterns",
+        featured: true
+      },
+      {
+        title: "Radial Light Diffuser",
+        description: "Stunning ceiling or wall light fixture with radial diffusion pattern creating dramatic lighting effects. The precise geometric cuts create beautiful shadow patterns while providing excellent light distribution.",
+        category: "lighting",
+        imageUrl: "/attached_assets/ce835c6d-9e12-4352-8708-7bf71b35ae91_1754470864060.JPG",
+        material: "Clear PETG",
+        technology: "High-Precision 3D Printing",
+        resolution: "0.1mm pattern precision",
+        timeline: "5-7 business days",
+        challenges: "Achieved perfect radial symmetry while maintaining optimal light transmission and diffusion",
         featured: false
       },
       {
