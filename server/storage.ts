@@ -56,42 +56,7 @@ export class MemStorage implements IStorage {
   private seedData() {
     // Seed projects
     const sampleProjects: InsertProject[] = [
-      {
-        title: "Illuminated Business Sign",
-        description: "Custom backlit LED sign with precision cut acrylic and engraved details.",
-        category: "light_signs",
-        imageUrl: "/0b8bd810-79d6-445e-82a7-fb58811e157a_1754468619376.JPG",
-        material: "Acrylic with LED Backlighting",
-        technology: "Laser Cutting & Engraving",
-        resolution: "0.1mm precision cutting",
-        timeline: "5-7 business days",
-        challenges: "Achieved uniform light distribution while maintaining crisp text clarity",
-        featured: true
-      },
-      {
-        title: "Decorative Light Panel",
-        description: "Artistic light panel featuring intricate geometric patterns with LED integration.",
-        category: "light_signs",
-        imageUrl: "/15f7ed50-25d0-4e7d-9335-f3ec86051ca4_1754468619376.JPG",
-        material: "Translucent Acrylic",
-        technology: "Laser Engraving & Cutting",
-        resolution: "0.05mm detail precision",
-        timeline: "4-6 business days",
-        challenges: "Created complex pattern while ensuring structural integrity for mounting",
-        featured: true
-      },
-      {
-        title: "Custom Logo Light Box",
-        description: "Professional edge-lit logo display for corporate branding and signage.",
-        category: "light_signs",
-        imageUrl: "/4d1b29f3-108a-4c67-9000-129abe22b2b3_1754468619376.JPG",
-        material: "Clear Acrylic with Frosted Finish",
-        technology: "Precision Laser Engraving",
-        resolution: "0.08mm engraving depth",
-        timeline: "3-5 business days",
-        challenges: "Optimized edge lighting for maximum logo visibility and professional appearance",
-        featured: true
-      },
+      
       {
         title: "Intricate Mandala Design",
         description: "Detailed mandala pattern laser-etched on wood with precision geometric elements.",
