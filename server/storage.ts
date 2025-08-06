@@ -106,43 +106,7 @@ export class MemStorage implements IStorage {
         featured: false
       },
 
-      {
-        title: "White Table Lamp with Wooden Base",
-        description: "Contemporary white table lamp featuring geometric shade with natural wooden tripod base. Creates beautiful ambient lighting through precisely designed patterns while adding modern elegance to any space.",
-        category: "lighting",
-        imageUrl: "/attached_assets/2c0c5fb1-25b0-4ee5-aaaa-d366823dd8b2_1754470864061.JPG",
-        material: "White PETG Shade with Wood Base",
-        technology: "3D Printing & Wood Crafting",
-        resolution: "0.2mm pattern accuracy",
-        timeline: "6-8 business days",
-        challenges: "Perfect integration of 3D printed shade with handcrafted wooden base",
-        featured: false
-      },
-      {
-        title: "Black Designer Lamp with Tripod Stand",
-        description: "Sophisticated black table lamp with geometric lampshade and wooden tripod legs. The contrast between the sleek black shade and natural wood creates a stunning focal point for modern spaces.",
-        category: "lighting",
-        imageUrl: "/attached_assets/5b16146b-eb77-4eda-a0fb-9fc7fe45aa06_1754470864061.JPG",
-        material: "Black PETG Shade with Wood Base",
-        technology: "3D Printing & Wood Crafting",
-        resolution: "0.2mm pattern accuracy",
-        timeline: "6-8 business days",
-        challenges: "Achieved perfect black finish while maintaining structural integrity with wooden base",
-        featured: false
-      },
 
-      {
-        title: "Elegant White Designer Lamp",
-        description: "Sophisticated white designer lamp with intricate geometric patterns and wooden base. The translucent white material creates soft, warm lighting while the geometric design adds visual interest.",
-        category: "lighting",
-        imageUrl: "/attached_assets/714a9c8b-b5f1-4989-85cf-5b584443e69e_1754470864061.JPG",
-        material: "Translucent White PETG with Wood",
-        technology: "Precision 3D Printing",
-        resolution: "0.2mm detail accuracy",
-        timeline: "6-8 business days",
-        challenges: "Optimized translucency for perfect light diffusion while maintaining pattern clarity",
-        featured: false
-      },
       {
         title: "Decorative Memorial Plaque",
         description: "Elegant memorial plaque with custom text and decorative border elements.",
