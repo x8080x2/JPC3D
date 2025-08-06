@@ -70,18 +70,6 @@ export class MemStorage implements IStorage {
         featured: true
       },
       {
-        title: "Personalized Wedding Plaque",
-        description: "Custom laser-engraved wedding memento with intricate decorative borders.",
-        category: "laser_designs",
-        imageUrl: "/841b8984-9db6-44ec-be7d-133430db87c4_1754468619376.JPG",
-        material: "Baltic Birch Plywood",
-        technology: "Multi-Pass Laser Engraving",
-        resolution: "0.05mm depth variation",
-        timeline: "4-7 business days",
-        challenges: "Achieved varying engraving depths for dimensional text and decorative elements",
-        featured: false
-      },
-      {
         title: "Organic Flow Vase",
         description: "Flowing organic vase design with complex curved geometries and smooth surfaces.",
         category: "vase_designs",
