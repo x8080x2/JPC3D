@@ -20,6 +20,7 @@ export default function Portfolio() {
     { id: "laser_designs", label: "Laser Designs" },
     { id: "vase_designs", label: "Vase Designs" },
     { id: "triathlon_bikes", label: "Triathlon Bikes" },
+    { id: "general_products", label: "General Products" },
   ];
 
   const filteredProjects = projects?.filter(project => 

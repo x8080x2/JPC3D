@@ -60,7 +60,7 @@ export class MemStorage implements IStorage {
       {
         title: "Intricate Mandala Design",
         description: "Detailed mandala pattern laser-etched on wood with precision geometric elements.",
-        category: "laser_designs",
+        category: "general_products",
         imageUrl: "/6c62b2c4-affd-4ce3-967b-be9d5219befd_1754468619376.JPG",
         galleryImages: null,
         material: "Premium Hardwood",

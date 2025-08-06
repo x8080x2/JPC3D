@@ -33,6 +33,8 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
         return "bg-green-100 text-green-800";
       case "triathlon_bikes":
         return "bg-red-100 text-red-800";
+      case "general_products":
+        return "bg-gray-100 text-gray-800";
       default:
         return "bg-purple-100 text-purple-800";
     }
@@ -48,6 +50,8 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
         return "Vase Designs";
       case "triathlon_bikes":
         return "Triathlon Bikes";
+      case "general_products":
+        return "General Products";
       default:
         return category;
     }
