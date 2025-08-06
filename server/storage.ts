@@ -71,14 +71,14 @@ export class MemStorage implements IStorage {
       },
       {
         title: "Geometric Pattern Vessel - White & Black Collection",
-        description: "Elegant geometric vases featuring flowing twisted patterns available in both pristine white and sophisticated black finishes. These stunning decorative pieces showcase the precision of modern 3D printing technology.",
+        description: "Complete collection of elegant geometric vases featuring flowing twisted patterns and sculptural designs. Available in both pristine white and sophisticated black finishes, each piece showcases unique geometric forms from twisted spirals to bold angular patterns. These stunning decorative pieces demonstrate the precision and artistic potential of modern 3D printing technology.",
         category: "vase_designs",
         imageUrl: "/attached_assets/c65ec789-b3c8-4cb2-9ecc-e539779e37c1_1754470864061.JPG",
-        material: "Premium PETG (White & Black)",
-        technology: "High-Resolution 3D Printing",
-        resolution: "0.15mm layer height",
-        timeline: "4-6 business days",
-        challenges: "Achieved smooth flowing geometric patterns with perfect color consistency in both white and black variants",
+        material: "Premium PETG (White & Black Options)",
+        technology: "Ultra-High Resolution 3D Printing",
+        resolution: "0.1mm - 0.15mm layer height",
+        timeline: "4-7 business days",
+        challenges: "Achieved museum-quality finishes with perfect geometric precision across multiple complex forms in both white and black variants",
         featured: true
       },
       {
@@ -105,30 +105,7 @@ export class MemStorage implements IStorage {
         challenges: "Achieved perfect radial symmetry while maintaining optimal light transmission and diffusion",
         featured: false
       },
-      {
-        title: "Elegant White Twisted Vase",
-        description: "Sophisticated white vase with flowing twisted geometric patterns. This premium piece showcases the beauty of modern 3D printing with its smooth, organic curves and contemporary aesthetic.",
-        category: "vase_designs",
-        imageUrl: "/attached_assets/9baa1fc5-220a-432f-b54f-647fca50f1e1_1754470864060.JPG",
-        material: "Premium White PETG",
-        technology: "High-Resolution 3D Printing",
-        resolution: "0.15mm layer height",
-        timeline: "4-6 business days",
-        challenges: "Achieved flawless white finish with perfectly smooth twisted geometry",
-        featured: true
-      },
-      {
-        title: "Modern Black Geometric Vase",
-        description: "Striking black vase featuring bold geometric patterns with sophisticated matte finish. The dramatic contrast and precise line work make this piece perfect for contemporary interiors.",
-        category: "vase_designs",
-        imageUrl: "/attached_assets/0cee7cf7-d5e6-4493-8987-6fd70ce57682_1754470864061.JPG",
-        material: "Premium Black PETG",
-        technology: "High-Resolution 3D Printing",
-        resolution: "0.15mm layer height",
-        timeline: "4-6 business days",
-        challenges: "Maintained deep black color consistency throughout complex geometric forms",
-        featured: true
-      },
+
       {
         title: "White Table Lamp with Wooden Base",
         description: "Contemporary white table lamp featuring geometric shade with natural wooden tripod base. Creates beautiful ambient lighting through precisely designed patterns while adding modern elegance to any space.",
@@ -153,30 +130,7 @@ export class MemStorage implements IStorage {
         challenges: "Achieved perfect black finish while maintaining structural integrity with wooden base",
         featured: false
       },
-      {
-        title: "Premium White Sculptural Vase",
-        description: "Elegant white sculptural vase with flowing organic lines and premium finish. This artistic piece combines function with form, serving as both a vase and a stunning decorative sculpture.",
-        category: "vase_designs",
-        imageUrl: "/attached_assets/8aee1569-4c47-4ede-ba98-89fca9a19ca1_1754470864061.JPG",
-        material: "Premium White PETG",
-        technology: "Ultra-High Resolution 3D Printing",
-        resolution: "0.1mm layer height",
-        timeline: "5-7 business days",
-        challenges: "Achieved museum-quality finish with perfect surface smoothness",
-        featured: true
-      },
-      {
-        title: "Contemporary Black Sculptural Vase",
-        description: "Bold black sculptural vase with dramatic geometric form and sophisticated matte finish. This statement piece brings modern artistic flair to any interior design scheme.",
-        category: "vase_designs",
-        imageUrl: "/attached_assets/6c47f9bb-7394-4adf-ba72-ad1879fb6d1c_1754470864061.JPG",
-        material: "Premium Black PETG",
-        technology: "Ultra-High Resolution 3D Printing",
-        resolution: "0.1mm layer height",
-        timeline: "5-7 business days",
-        challenges: "Maintained deep black color with perfect geometric precision",
-        featured: true
-      },
+
       {
         title: "Elegant White Designer Lamp",
         description: "Sophisticated white designer lamp with intricate geometric patterns and wooden base. The translucent white material creates soft, warm lighting while the geometric design adds visual interest.",
