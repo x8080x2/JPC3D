@@ -71,14 +71,14 @@ export class MemStorage implements IStorage {
       },
       {
         title: "Geometric Pattern Vessel",
-        description: "Modern geometric vase featuring angular patterns and contemporary styling.",
+        description: "Modern geometric vase featuring flowing lines and contemporary styling with elegant twisted surface patterns.",
         category: "vase_designs",
-        imageUrl: "/9baa1fc5-220a-432f-b54f-647fca50f1e1_1754468619376.JPG",
+        imageUrl: "/attached_assets/9baa1fc5-220a-432f-b54f-647fca50f1e1_1754468619376.JPG",
         material: "High-Strength PETG",
         technology: "Precision 3D Printing",
         resolution: "0.15mm layer height",
         timeline: "4-6 business days",
-        challenges: "Maintained sharp geometric edges while ensuring structural stability",
+        challenges: "Achieved smooth flowing geometric patterns while maintaining structural integrity",
         featured: false
       },
       {
