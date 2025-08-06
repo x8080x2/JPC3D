@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Project } from "@shared/schema";
 import { X, Download } from "lucide-react";
 import { Link } from "wouter";
+import { useState } from "react";
 
 interface ProjectModalProps {
   project: Project | null;
@@ -12,7 +13,15 @@ interface ProjectModalProps {
 }
 
 export default function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
+  const [selectedImage, setSelectedImage] = useState<string>("");
+
   if (!project) return null;
+
+  // Set initial selected image when project changes
+  const currentImage = selectedImage || project.imageUrl;
+  
+  // Get all images (main image + gallery images)
+  const allImages = [project.imageUrl, ...(project.galleryImages || [])];
 
   const getCategoryColor = (category: string) => {
     switch (category) {
@@ -52,27 +61,25 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
         <div className="grid lg:grid-cols-2 gap-8 mt-6">
           <div>
             <img 
-              src={project.imageUrl} 
+              src={currentImage} 
               alt={project.title}
               className="w-full h-64 object-cover rounded-lg mb-4"
             />
-            <div className="grid grid-cols-3 gap-2">
-              <img 
-                src={project.imageUrl} 
-                alt="Additional view 1" 
-                className="w-full h-20 object-cover rounded cursor-pointer opacity-60 hover:opacity-100 transition-opacity"
-              />
-              <img 
-                src={project.imageUrl} 
-                alt="Additional view 2" 
-                className="w-full h-20 object-cover rounded cursor-pointer opacity-60 hover:opacity-100 transition-opacity"
-              />
-              <img 
-                src={project.imageUrl} 
-                alt="Additional view 3" 
-                className="w-full h-20 object-cover rounded cursor-pointer opacity-60 hover:opacity-100 transition-opacity"
-              />
-            </div>
+            {allImages.length > 1 && (
+              <div className="grid grid-cols-4 gap-2">
+                {allImages.map((imageUrl, index) => (
+                  <img 
+                    key={index}
+                    src={imageUrl} 
+                    alt={`${project.title} view ${index + 1}`} 
+                    className={`w-full h-20 object-cover rounded cursor-pointer transition-opacity ${
+                      currentImage === imageUrl ? 'opacity-100 ring-2 ring-primary' : 'opacity-60 hover:opacity-100'
+                    }`}
+                    onClick={() => setSelectedImage(imageUrl)}
+                  />
+                ))}
+              </div>
+            )}
           </div>
           
           <div>

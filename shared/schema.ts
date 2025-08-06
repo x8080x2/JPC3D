@@ -14,6 +14,7 @@ export const projects = pgTable("projects", {
   description: text("description").notNull(),
   category: text("category").notNull(),
   imageUrl: text("image_url").notNull(),
+  galleryImages: text("gallery_images").array(),
   material: text("material").notNull(),
   technology: text("technology").notNull(),
   resolution: text("resolution").notNull(),
