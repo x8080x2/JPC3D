@@ -19,6 +19,7 @@ export default function Portfolio() {
     { id: "light_signs", label: "Light Signs" },
     { id: "laser_designs", label: "Laser Designs" },
     { id: "vase_designs", label: "Vase Designs" },
+    { id: "triathlon_bikes", label: "Triathlon Bikes" },
   ];
 
   const filteredProjects = projects?.filter(project => 

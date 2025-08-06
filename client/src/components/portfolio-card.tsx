@@ -17,6 +17,8 @@ export default function PortfolioCard({ project, onClick }: PortfolioCardProps) 
         return "bg-blue-100 text-blue-800";
       case "vase_designs":
         return "bg-green-100 text-green-800";
+      case "triathlon_bikes":
+        return "bg-red-100 text-red-800";
       default:
         return "bg-purple-100 text-purple-800";
     }
@@ -30,6 +32,8 @@ export default function PortfolioCard({ project, onClick }: PortfolioCardProps) 
         return "Laser Designs";
       case "vase_designs":
         return "Vase Designs";
+      case "triathlon_bikes":
+        return "Triathlon Bikes";
       default:
         return category;
     }
