@@ -143,7 +143,7 @@ export class MemStorage implements IStorage {
       {
         title: "Decorative Memorial Plaque",
         description: "Elegant memorial plaque with custom text and decorative border elements.",
-        category: "laser_designs",
+        category: "light_signs",
         imageUrl: "/adda121e-7bdb-4eb0-bd31-3634a5e2bff2_1754468619376.JPG",
         material: "Anodized Aluminum",
         technology: "Fiber Laser Engraving",
