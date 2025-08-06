@@ -60,7 +60,7 @@ export class MemStorage implements IStorage {
         title: "Precision Mechanical Component",
         description: "Complex multi-part assembly with tight tolerances for aerospace application.",
         category: "industrial",
-        imageUrl: "https://images.unsplash.com/photo-1636633762833-5d1658f1e29b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+        imageUrl: "/0b8bd810-79d6-445e-82a7-fb58811e157a_1754468619376.JPG",
         material: "Titanium Alloy",
         technology: "SLM (Selective Laser Melting)",
         resolution: "0.05mm layer height",
@@ -69,16 +69,16 @@ export class MemStorage implements IStorage {
         featured: true
       },
       {
-        title: "Transparent Housing Prototype",
-        description: "Clear resin prototype for product visualization and functionality testing.",
-        category: "prototyping",
-        imageUrl: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-        material: "Clear Resin",
-        technology: "SLA (Stereolithography)",
-        resolution: "0.1mm layer height",
-        timeline: "3-5 business days",
-        challenges: "Maintained optical clarity while ensuring structural integrity",
-        featured: false
+        title: "Advanced Manufacturing Tools",
+        description: "Precision tooling components for advanced manufacturing applications.",
+        category: "industrial",
+        imageUrl: "/15f7ed50-25d0-4e7d-9335-f3ec86051ca4_1754468619376.JPG",
+        material: "Carbon Fiber Reinforced Plastic",
+        technology: "SLS (Selective Laser Sintering)",
+        resolution: "0.08mm layer height",
+        timeline: "5-7 business days",
+        challenges: "Maintained dimensional accuracy while achieving superior strength-to-weight ratio",
+        featured: true
       },
       {
         title: "Headset Mounting System",
@@ -103,6 +103,18 @@ export class MemStorage implements IStorage {
         timeline: "7-10 business days",
         challenges: "Achieved automotive-grade detail and surface finish requirements",
         featured: true
+      },
+      {
+        title: "Professional Assembly Components",
+        description: "Multi-part precision assembly for industrial automation equipment.",
+        category: "industrial",
+        imageUrl: "/841b8984-9db6-44ec-be7d-133430db87c4_1754468619376.JPG",
+        material: "Aluminum-filled Nylon",
+        technology: "SLS (Selective Laser Sintering)",
+        resolution: "0.12mm layer height",
+        timeline: "8-12 business days",
+        challenges: "Achieved tight tolerances across multiple interlocking components",
+        featured: false
       },
       {
         title: "Artistic Vase Design",
@@ -138,6 +150,18 @@ export class MemStorage implements IStorage {
         resolution: "Vector Based",
         timeline: "1-2 business days",
         challenges: "Precise technical modeling for manufacturing preparation",
+        featured: false
+      },
+      {
+        title: "Multi-Component Assembly",
+        description: "Complex multi-part mechanical assembly with precision fitting requirements.",
+        category: "industrial",
+        imageUrl: "/e8120be9-e78e-4c02-b5fc-9f6f98364c58_1754468619376.JPG",
+        material: "Glass-Filled Nylon",
+        technology: "SLS (Selective Laser Sintering)",
+        resolution: "0.1mm layer height",
+        timeline: "6-8 business days",
+        challenges: "Achieved perfect fit between multiple interlocking components",
         featured: false
       },
       {
