@@ -58,8 +58,8 @@ export class MemStorage implements IStorage {
     const sampleProjects: InsertProject[] = [
       
       {
-        title: "Precision Laser-Etched Component",
-        description: "Detailed precision component with intricate geometric patterns laser-etched for industrial applications.",
+        title: "Intricate Mandala Design",
+        description: "Detailed mandala pattern laser-etched on wood with precision geometric elements.",
         category: "laser_designs",
         imageUrl: "/6c62b2c4-affd-4ce3-967b-be9d5219befd_1754468619376.JPG",
         material: "Premium Hardwood",
@@ -70,9 +70,9 @@ export class MemStorage implements IStorage {
         featured: true
       },
       {
-        title: "Industrial Mounting Bracket",
-        description: "Precision-engineered mounting bracket with geometric reinforcement patterns for heavy-duty applications.",
-        category: "mechanical_components",
+        title: "Geometric Pattern Vessel",
+        description: "Modern geometric vase featuring angular patterns and contemporary styling.",
+        category: "vase_designs",
         imageUrl: "/9baa1fc5-220a-432f-b54f-647fca50f1e1_1754468619376.JPG",
         material: "High-Strength PETG",
         technology: "Precision 3D Printing",
@@ -82,9 +82,9 @@ export class MemStorage implements IStorage {
         featured: false
       },
       {
-        title: "Custom Control Panel Housing",
-        description: "Professional control panel housing with precision-cut openings and custom labeling.",
-        category: "mechanical_components",
+        title: "Decorative Memorial Plaque",
+        description: "Elegant memorial plaque with custom text and decorative border elements.",
+        category: "light_signs",
         imageUrl: "/adda121e-7bdb-4eb0-bd31-3634a5e2bff2_1754468619376.JPG",
         material: "Anodized Aluminum",
         technology: "Fiber Laser Engraving",
@@ -94,9 +94,9 @@ export class MemStorage implements IStorage {
         featured: false
       },
       {
-        title: "Precision Machined Assembly",
-        description: "Multi-component precision assembly with tight tolerances and smooth surface finish.",
-        category: "mechanical_components",
+        title: "Vintage-Style Table Lamp",
+        description: "Classic table lamp design with laser-cut lampshade featuring decorative patterns.",
+        category: "laser_designs",
         imageUrl: "/e86ad48c-8ea0-44ea-97b3-768295d88184_1754468619376.JPG",
         material: "Wood Veneer Lampshade",
         technology: "Precision Laser Cutting",
