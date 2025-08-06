@@ -70,18 +70,6 @@ export class MemStorage implements IStorage {
         featured: true
       },
       {
-        title: "Organic Flow Vase",
-        description: "Flowing organic vase design with complex curved geometries and smooth surfaces.",
-        category: "vase_designs",
-        imageUrl: "/8bb482d7-d2d2-4a42-a7df-6c1c7c9a3aa4_1754468619376.JPG",
-        material: "Premium PLA Plastic",
-        technology: "High-Resolution 3D Printing",
-        resolution: "0.1mm layer height",
-        timeline: "5-7 business days",
-        challenges: "Captured intricate organic curves with seamless surface finish",
-        featured: false
-      },
-      {
         title: "Geometric Pattern Vessel",
         description: "Modern geometric vase featuring angular patterns and contemporary styling.",
         category: "vase_designs",
@@ -103,18 +91,6 @@ export class MemStorage implements IStorage {
         resolution: "0.03mm text precision",
         timeline: "3-5 business days",
         challenges: "Achieved permanent, weather-resistant engraving with consistent depth",
-        featured: false
-      },
-      {
-        title: "Twisted Spiral Vase",
-        description: "Dynamic spiral vase design with flowing helical geometry and artistic appeal.",
-        category: "vase_designs",
-        imageUrl: "/e8120be9-e78e-4c02-b5fc-9f6f98364c58_1754468619376.JPG",
-        material: "Silk PLA Filament",
-        technology: "Advanced 3D Printing",
-        resolution: "0.12mm layer height",
-        timeline: "6-9 business days",
-        challenges: "Maintained structural integrity while creating complex spiral geometry",
         featured: false
       },
       {
